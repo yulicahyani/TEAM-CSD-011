@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Miracle</string>
     <string name="tv_take_photo">Ambil Gambar</string>
+    <string name="start_halo">Halo Recycler!</string>
+    <string name="start_sentence">MIRACLE aplikasi yang memudahkan anda  untuk memilah sampah daur ulang</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
 </resources>
