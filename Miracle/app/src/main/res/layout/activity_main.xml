@@ -39,6 +39,6 @@
         android:drawableLeft="@drawable/ic_camera"
         android:text="@string/tv_take_photo"
         android:textAllCaps="false"
-        android:backgroundTint="@color/light_green"/>
+        android:background="@drawable/bg_btn_light"/>
 
 </RelativeLayout>
