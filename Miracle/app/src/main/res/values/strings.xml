@@ -9,4 +9,6 @@
     <string name="login_sentence">Sign in to continue</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
+    <string name="signup_halo">Hi!</string>
+    <string name="signup_sentence">Create your account here</string>
 </resources>
