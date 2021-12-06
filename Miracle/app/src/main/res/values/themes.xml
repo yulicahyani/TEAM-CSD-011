@@ -15,4 +15,12 @@
 
     </style>
 
+    <style name="Theme.Miracle.MyEditTextTheme">
+        <item name="colorControlNormal">@color/dark_green</item>
+        <item name="colorControlActivated">@color/dark_green</item>
+        <item name="colorControlHighlight">@color/dark_green</item>
+        <item name="android:textColor">@color/medium_green</item>
+        <item name="android:textColorHint">@color/medium_green</item>
+    </style>
+
 </resources>

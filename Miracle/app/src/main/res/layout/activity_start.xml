@@ -12,7 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-
         android:src="@drawable/img_start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,12 +51,13 @@
 
     <Button
         android:id="@+id/loginBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginEnd="86dp"
         android:backgroundTint="@color/dark_green"
-        android:paddingHorizontal="60dp"
-        android:paddingVertical="8dp"
+        android:paddingVertical="10dp"
         android:text="@string/login"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,12 +66,13 @@
 
     <Button
         android:id="@+id/signupBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginEnd="86dp"
         android:backgroundTint="@color/white"
-        android:paddingHorizontal="53dp"
-        android:paddingVertical="8dp"
+        android:paddingVertical="10dp"
         android:text="@string/signup"
         android:textColor="@color/dark_green"
         android:textSize="18sp"

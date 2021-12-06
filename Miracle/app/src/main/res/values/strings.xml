@@ -5,4 +5,8 @@
     <string name="start_sentence">MIRACLE aplikasi yang memudahkan anda  untuk memilah sampah daur ulang</string>
     <string name="login">Login</string>
     <string name="signup">Signup</string>
+    <string name="login_halo">Selamat Datang!</string>
+    <string name="login_sentence">Sign in to continue</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
 </resources>
