@@ -20,6 +20,8 @@ import androidx.lifecycle.lifecycleScope
 import com.csd011.miracle.R
 import com.csd011.miracle.databinding.ActivityMainBinding
 import com.csd011.miracle.ui.login.LoginActivity
+import com.csd011.miracle.ui.start.StartActivity
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.tensorflow.lite.support.image.TensorImage
@@ -42,6 +44,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var activityMainBinding: ActivityMainBinding
     private lateinit var currentImagePath: String
+    private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -54,6 +57,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         with(activityMainBinding){
             captureImageBtn.setOnClickListener(this@MainActivity)
         }
+
+        auth = FirebaseAuth.getInstance()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -63,7 +68,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
         R.id.logout -> {
-            val intent = Intent(this@MainActivity, LoginActivity::class.java)
+            auth.signOut()
+            val intent = Intent(this@MainActivity, StartActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
             true
         }

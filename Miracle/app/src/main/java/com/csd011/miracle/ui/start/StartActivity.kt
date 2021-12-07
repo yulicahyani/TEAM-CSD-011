@@ -20,6 +20,8 @@ class StartActivity : AppCompatActivity() {
         activityStartBinding = ActivityStartBinding.inflate(layoutInflater)
         setContentView(activityStartBinding.root)
 
+        auth = FirebaseAuth.getInstance()
+
         activityStartBinding.loginBtn.setOnClickListener {
             val intent = Intent(this@StartActivity, LoginActivity::class.java)
             startActivity(intent)
