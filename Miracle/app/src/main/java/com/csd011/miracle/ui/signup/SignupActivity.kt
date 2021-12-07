@@ -71,8 +71,18 @@ class SignupActivity : AppCompatActivity() {
                 else{
                     activitySignupBinding.loadProgressBar.progressBar.visibility = View.GONE
                     activitySignupBinding.loadProgressBar.pbText.visibility = View.GONE
-                    Toast.makeText(this, it.exception?.message, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "${it.exception?.message}", Toast.LENGTH_SHORT).show()
                 }
             }
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        if (auth.currentUser != null){
+            val intent = Intent(this@SignupActivity, MainActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
+        }
     }
 }
