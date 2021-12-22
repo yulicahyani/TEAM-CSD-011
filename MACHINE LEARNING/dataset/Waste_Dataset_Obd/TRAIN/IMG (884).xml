@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nonrec_Glass</folder>
+	<filename>IMG (884).jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TRAIN\Nonrec_Glass\norecglass- (493).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Nonrec_Glass</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>62</xmin>
+			<ymin>34</ymin>
+			<xmax>328</xmax>
+			<ymax>241</ymax>
+		</bndbox>
+	</object>
+</annotation>

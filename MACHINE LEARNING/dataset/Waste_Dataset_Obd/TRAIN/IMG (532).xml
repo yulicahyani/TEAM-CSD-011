@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Rec_Metal</folder>
+	<filename>IMG (532).jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TRAIN\Rec_Metal\metal-473.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>225</width>
+		<height>217</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rec_Metal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>13</xmin>
+			<ymin>6</ymin>
+			<xmax>212</xmax>
+			<ymax>206</ymax>
+		</bndbox>
+	</object>
+</annotation>

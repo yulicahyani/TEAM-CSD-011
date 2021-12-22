@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Rec_Plastic</folder>
+	<filename>plastic-1004.jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TRAIN\Rec_Plastic\plastic-1004.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3264</width>
+		<height>2448</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rec_Plastic</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>559</xmin>
+			<ymin>571</ymin>
+			<xmax>1589</xmax>
+			<ymax>2422</ymax>
+		</bndbox>
+	</object>
+</annotation>

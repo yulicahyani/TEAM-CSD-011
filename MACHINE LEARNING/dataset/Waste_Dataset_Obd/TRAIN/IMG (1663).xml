@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Rec_Paper</folder>
+	<filename>IMG (1663).jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TRAIN\Rec_Paper\paper-1613.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2526</width>
+		<height>2183</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rec_Paper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>83</xmin>
+			<ymin>349</ymin>
+			<xmax>2442</xmax>
+			<ymax>2075</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nonrec_Other</folder>
+	<filename>other-65.jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TEST\Nonrec_Other\other-65.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>424</width>
+		<height>449</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Nonrec_Other</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>19</ymin>
+			<xmax>379</xmax>
+			<ymax>438</ymax>
+		</bndbox>
+	</object>
+</annotation>

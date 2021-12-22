@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Rec_Plastic</folder>
+	<filename>plastic-1828.jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TEST\Rec_Plastic\plastic-1828.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>236</width>
+		<height>236</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rec_Plastic</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>52</xmin>
+			<ymin>16</ymin>
+			<xmax>187</xmax>
+			<ymax>210</ymax>
+		</bndbox>
+	</object>
+</annotation>

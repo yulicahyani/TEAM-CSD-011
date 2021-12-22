@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Rec_Glass</folder>
+	<filename>glass501.jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TRAIN\Rec_Glass\glass501.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>384</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rec_Glass</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>32</xmin>
+			<ymin>63</ymin>
+			<xmax>505</xmax>
+			<ymax>381</ymax>
+		</bndbox>
+	</object>
+</annotation>

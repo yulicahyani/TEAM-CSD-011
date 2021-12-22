@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nonrec_Plastic</folder>
+	<filename>norecplastic- (266).jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TEST\Nonrec_Plastic\norecplastic- (266).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Nonrec_Plastic</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>182</xmin>
+			<ymin>39</ymin>
+			<xmax>449</xmax>
+			<ymax>606</ymax>
+		</bndbox>
+	</object>
+</annotation>

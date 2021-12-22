@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Rec_Glass</folder>
+	<filename>VIMG (15).jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TEST\Rec_Glass\glass-7.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3264</width>
+		<height>2448</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rec_Glass</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>484</xmin>
+			<ymin>84</ymin>
+			<xmax>1841</xmax>
+			<ymax>2317</ymax>
+		</bndbox>
+	</object>
+</annotation>

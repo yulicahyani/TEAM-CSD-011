@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Rec_Paper</folder>
+	<filename>VIMG (408).jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TEST\Rec_Paper\paper-690.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>841</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rec_Paper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>15</xmin>
+			<ymin>43</ymin>
+			<xmax>1203</xmax>
+			<ymax>774</ymax>
+		</bndbox>
+	</object>
+</annotation>

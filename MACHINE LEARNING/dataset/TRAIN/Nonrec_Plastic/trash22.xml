@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nonrec_Plastic</folder>
+	<filename>trash22.jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TRAIN\Nonrec_Plastic\trash22.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>384</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Nonrec_Plastic</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>194</xmin>
+			<ymin>40</ymin>
+			<xmax>359</xmax>
+			<ymax>310</ymax>
+		</bndbox>
+	</object>
+</annotation>

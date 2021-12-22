@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nonrec_Tangler</folder>
+	<filename>IMG (2082).jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TRAIN\Nonrec_Tangler\tanglers-243.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4504</width>
+		<height>3232</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Nonrec_Tangler</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>68</xmin>
+			<ymin>503</ymin>
+			<xmax>3939</xmax>
+			<ymax>2663</ymax>
+		</bndbox>
+	</object>
+</annotation>

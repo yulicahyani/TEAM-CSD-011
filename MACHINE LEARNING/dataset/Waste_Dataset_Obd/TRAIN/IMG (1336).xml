@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Organik</folder>
+	<filename>IMG (1336).jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TRAIN\Organik\O_6024.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>295</width>
+		<height>171</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Organik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>88</xmin>
+			<ymin>10</ymin>
+			<xmax>264</xmax>
+			<ymax>154</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Rec_Metal</folder>
+	<filename>VIMG (115).jpg</filename>
+	<path>C:\Users\ASUS\Documents\KULIAH\SIB\CAPSTONE\DATASET\TEST\Rec_Metal\metal203.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>384</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rec_Metal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>156</xmin>
+			<ymin>64</ymin>
+			<xmax>327</xmax>
+			<ymax>275</ymax>
+		</bndbox>
+	</object>
+</annotation>
